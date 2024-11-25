@@ -10,6 +10,6 @@
 
         SimpleRouter::start();
     } catch (Pecee\SimpleRouter\Exceptions\NotFoundHttpException $e) {
-        echo $e->getMessage(s);
+        echo $e->getMessage();
     }
 ?>
