@@ -1,0 +1,22 @@
+{
+    "name": "fabiano/biblioteca",
+    "autoload": {
+        "psr-4": {
+            "sistema\\": "sistema/"
+        },
+        "files":[
+            "sistema/configuracao.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Fabiano Soares",
+            "email": "fabinho1947@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=8.0",
+        "pecee/simple-router": "^5.0",
+        "twig/twig": "^3.0"
+    }
+}
